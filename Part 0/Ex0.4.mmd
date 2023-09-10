@@ -3,7 +3,7 @@ sequenceDiagram
     participant server
 
     browser->>server: POST 302 https://studies.cs.helsinki.fi/exampleapp/new_note 
-               Note right of browser:  the server instructs the browser to reload the Notes page with a redirect.
+               Note right of browser:  The server instructs the browser to reload the Notes page with a redirect.
     activate server
     server-->>browser: HTML document
     deactivate server
